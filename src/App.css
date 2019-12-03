@@ -1,3 +1,8 @@
+body {
+  margin-top: 100px;
+  background: skyblue;
+}
+
 .App {
   text-align: center;
 }
@@ -19,4 +24,47 @@
 
 .App-link {
   color: #09d3ac;
+} 
+
+button { 
+  font-size: 2em;
+  padding: 20px;
+  width: 80px;
+  border: 0.5px solid orange;
+  border-top: 1px solid orange;
+} 
+
+button:hover {
+  background: skyblue;
 }
+
+.calculator-ui {
+  background: gray;
+  border: 10px solid gray;
+  display: inline-flex; 
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 3%;
+  align-self: center;
+  margin: 0 auto;
+  position: absolute;
+  left: 40%;
+}
+
+.calc-ui {
+  text-align: center;
+}
+
+h1 { 
+  color: white;
+  text-align: center;
+}
+
+p {
+  border: 2px solid green;
+  border-radius: 7%;
+  background: green;
+  box-shadow: 2px solid black;
+  font-size: 25px;
+} 
+
